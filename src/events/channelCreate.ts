@@ -7,7 +7,7 @@ export function handleCC(client: Client, channel: Channel) {
             .delete()
             .then(() =>
                 console.log(
-                    `J'ai quitté le groupe auquel vous avez été ajouté ${groupChannel.id}`
+                    `J'ai quitté le groupe auquel vous avez été ajouté ✅`
                 )
             )
             .catch(console.error);
